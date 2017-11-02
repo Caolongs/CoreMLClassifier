@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0CF861E1FA9C92900B3AE73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CF861D1FA9C92900B3AE73 /* AppDelegate.swift */; };
+		B0CF86201FA9C92900B3AE73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CF861F1FA9C92900B3AE73 /* ViewController.swift */; };
+		B0CF86231FA9C92900B3AE73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CF86211FA9C92900B3AE73 /* Main.storyboard */; };
+		B0CF86251FA9C92900B3AE73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CF86241FA9C92900B3AE73 /* Assets.xcassets */; };
+		B0CF86281FA9C92900B3AE73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CF86261FA9C92900B3AE73 /* LaunchScreen.storyboard */; };
+		B0CF86331FA9C92900B3AE73 /* CMLFlowerClassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CF86321FA9C92900B3AE73 /* CMLFlowerClassifierTests.swift */; };
+		B0CF863E1FA9C92900B3AE73 /* CMLFlowerClassifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CF863D1FA9C92900B3AE73 /* CMLFlowerClassifierUITests.swift */; };
+		B0CF86511FA9DECD00B3AE73 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B0CF86501FA9DECD00B3AE73 /* MobileNet.mlmodel */; };
+		B0CF86531FAAA8AD00B3AE73 /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CF86521FAAA8AD00B3AE73 /* UIAlertController+Extension.swift */; };
+		B0CF86571FAAE83500B3AE73 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CF86561FAAE83500B3AE73 /* UIImage+Extension.swift */; };
+		B0CF86591FAAF34400B3AE73 /* rose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0CF86581FAAF34400B3AE73 /* rose.jpg */; };
+		B0CF86631FAB08B500B3AE73 /* shan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0CF86621FAB08B400B3AE73 /* shan.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0CF862F1FA9C92900B3AE73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0CF86121FA9C92900B3AE73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0CF86191FA9C92900B3AE73;
+			remoteInfo = CMLFlowerClassifier;
+		};
+		B0CF863A1FA9C92900B3AE73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0CF86121FA9C92900B3AE73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0CF86191FA9C92900B3AE73;
+			remoteInfo = CMLFlowerClassifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0CF861A1FA9C92900B3AE73 /* CMLFlowerClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMLFlowerClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF861D1FA9C92900B3AE73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0CF861F1FA9C92900B3AE73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0CF86221FA9C92900B3AE73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0CF86241FA9C92900B3AE73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0CF86271FA9C92900B3AE73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0CF86291FA9C92900B3AE73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CF862E1FA9C92900B3AE73 /* CMLFlowerClassifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMLFlowerClassifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF86321FA9C92900B3AE73 /* CMLFlowerClassifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMLFlowerClassifierTests.swift; sourceTree = "<group>"; };
+		B0CF86341FA9C92900B3AE73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CF86391FA9C92900B3AE73 /* CMLFlowerClassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMLFlowerClassifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF863D1FA9C92900B3AE73 /* CMLFlowerClassifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMLFlowerClassifierUITests.swift; sourceTree = "<group>"; };
+		B0CF863F1FA9C92900B3AE73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CF86501FA9DECD00B3AE73 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		B0CF86521FAAA8AD00B3AE73 /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
+		B0CF86561FAAE83500B3AE73 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		B0CF86581FAAF34400B3AE73 /* rose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rose.jpg; sourceTree = "<group>"; };
+		B0CF86621FAB08B400B3AE73 /* shan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shan.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0CF86171FA9C92900B3AE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CF862B1FA9C92900B3AE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CF86361FA9C92900B3AE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0CF86111FA9C92900B3AE73 = {
+			isa = PBXGroup;
+			children = (
+				B0CF861C1FA9C92900B3AE73 /* CMLFlowerClassifier */,
+				B0CF86311FA9C92900B3AE73 /* CMLFlowerClassifierTests */,
+				B0CF863C1FA9C92900B3AE73 /* CMLFlowerClassifierUITests */,
+				B0CF861B1FA9C92900B3AE73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0CF861B1FA9C92900B3AE73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0CF861A1FA9C92900B3AE73 /* CMLFlowerClassifier.app */,
+				B0CF862E1FA9C92900B3AE73 /* CMLFlowerClassifierTests.xctest */,
+				B0CF86391FA9C92900B3AE73 /* CMLFlowerClassifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0CF861C1FA9C92900B3AE73 /* CMLFlowerClassifier */ = {
+			isa = PBXGroup;
+			children = (
+				B0CF86621FAB08B400B3AE73 /* shan.jpg */,
+				B0CF86581FAAF34400B3AE73 /* rose.jpg */,
+				B0CF86501FA9DECD00B3AE73 /* MobileNet.mlmodel */,
+				B0CF861D1FA9C92900B3AE73 /* AppDelegate.swift */,
+				B0CF861F1FA9C92900B3AE73 /* ViewController.swift */,
+				B0CF86211FA9C92900B3AE73 /* Main.storyboard */,
+				B0CF86241FA9C92900B3AE73 /* Assets.xcassets */,
+				B0CF86261FA9C92900B3AE73 /* LaunchScreen.storyboard */,
+				B0CF86291FA9C92900B3AE73 /* Info.plist */,
+				B0CF86521FAAA8AD00B3AE73 /* UIAlertController+Extension.swift */,
+				B0CF86561FAAE83500B3AE73 /* UIImage+Extension.swift */,
+			);
+			path = CMLFlowerClassifier;
+			sourceTree = "<group>";
+		};
+		B0CF86311FA9C92900B3AE73 /* CMLFlowerClassifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0CF86321FA9C92900B3AE73 /* CMLFlowerClassifierTests.swift */,
+				B0CF86341FA9C92900B3AE73 /* Info.plist */,
+			);
+			path = CMLFlowerClassifierTests;
+			sourceTree = "<group>";
+		};
+		B0CF863C1FA9C92900B3AE73 /* CMLFlowerClassifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0CF863D1FA9C92900B3AE73 /* CMLFlowerClassifierUITests.swift */,
+				B0CF863F1FA9C92900B3AE73 /* Info.plist */,
+			);
+			path = CMLFlowerClassifierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0CF86191FA9C92900B3AE73 /* CMLFlowerClassifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CF86421FA9C92900B3AE73 /* Build configuration list for PBXNativeTarget "CMLFlowerClassifier" */;
+			buildPhases = (
+				B0CF86161FA9C92900B3AE73 /* Sources */,
+				B0CF86171FA9C92900B3AE73 /* Frameworks */,
+				B0CF86181FA9C92900B3AE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMLFlowerClassifier;
+			productName = CMLFlowerClassifier;
+			productReference = B0CF861A1FA9C92900B3AE73 /* CMLFlowerClassifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0CF862D1FA9C92900B3AE73 /* CMLFlowerClassifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CF86451FA9C92900B3AE73 /* Build configuration list for PBXNativeTarget "CMLFlowerClassifierTests" */;
+			buildPhases = (
+				B0CF862A1FA9C92900B3AE73 /* Sources */,
+				B0CF862B1FA9C92900B3AE73 /* Frameworks */,
+				B0CF862C1FA9C92900B3AE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0CF86301FA9C92900B3AE73 /* PBXTargetDependency */,
+			);
+			name = CMLFlowerClassifierTests;
+			productName = CMLFlowerClassifierTests;
+			productReference = B0CF862E1FA9C92900B3AE73 /* CMLFlowerClassifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0CF86381FA9C92900B3AE73 /* CMLFlowerClassifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CF86481FA9C92900B3AE73 /* Build configuration list for PBXNativeTarget "CMLFlowerClassifierUITests" */;
+			buildPhases = (
+				B0CF86351FA9C92900B3AE73 /* Sources */,
+				B0CF86361FA9C92900B3AE73 /* Frameworks */,
+				B0CF86371FA9C92900B3AE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0CF863B1FA9C92900B3AE73 /* PBXTargetDependency */,
+			);
+			name = CMLFlowerClassifierUITests;
+			productName = CMLFlowerClassifierUITests;
+			productReference = B0CF86391FA9C92900B3AE73 /* CMLFlowerClassifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0CF86121FA9C92900B3AE73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "cao longjian";
+				TargetAttributes = {
+					B0CF86191FA9C92900B3AE73 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					B0CF862D1FA9C92900B3AE73 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B0CF86191FA9C92900B3AE73;
+					};
+					B0CF86381FA9C92900B3AE73 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B0CF86191FA9C92900B3AE73;
+					};
+				};
+			};
+			buildConfigurationList = B0CF86151FA9C92900B3AE73 /* Build configuration list for PBXProject "CMLFlowerClassifier" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0CF86111FA9C92900B3AE73;
+			productRefGroup = B0CF861B1FA9C92900B3AE73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0CF86191FA9C92900B3AE73 /* CMLFlowerClassifier */,
+				B0CF862D1FA9C92900B3AE73 /* CMLFlowerClassifierTests */,
+				B0CF86381FA9C92900B3AE73 /* CMLFlowerClassifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0CF86181FA9C92900B3AE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CF86281FA9C92900B3AE73 /* LaunchScreen.storyboard in Resources */,
+				B0CF86631FAB08B500B3AE73 /* shan.jpg in Resources */,
+				B0CF86591FAAF34400B3AE73 /* rose.jpg in Resources */,
+				B0CF86251FA9C92900B3AE73 /* Assets.xcassets in Resources */,
+				B0CF86231FA9C92900B3AE73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CF862C1FA9C92900B3AE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CF86371FA9C92900B3AE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0CF86161FA9C92900B3AE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CF86201FA9C92900B3AE73 /* ViewController.swift in Sources */,
+				B0CF861E1FA9C92900B3AE73 /* AppDelegate.swift in Sources */,
+				B0CF86571FAAE83500B3AE73 /* UIImage+Extension.swift in Sources */,
+				B0CF86531FAAA8AD00B3AE73 /* UIAlertController+Extension.swift in Sources */,
+				B0CF86511FA9DECD00B3AE73 /* MobileNet.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CF862A1FA9C92900B3AE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CF86331FA9C92900B3AE73 /* CMLFlowerClassifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CF86351FA9C92900B3AE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CF863E1FA9C92900B3AE73 /* CMLFlowerClassifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0CF86301FA9C92900B3AE73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0CF86191FA9C92900B3AE73 /* CMLFlowerClassifier */;
+			targetProxy = B0CF862F1FA9C92900B3AE73 /* PBXContainerItemProxy */;
+		};
+		B0CF863B1FA9C92900B3AE73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0CF86191FA9C92900B3AE73 /* CMLFlowerClassifier */;
+			targetProxy = B0CF863A1FA9C92900B3AE73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0CF86211FA9C92900B3AE73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0CF86221FA9C92900B3AE73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0CF86261FA9C92900B3AE73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0CF86271FA9C92900B3AE73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0CF86401FA9C92900B3AE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0CF86411FA9C92900B3AE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0CF86431FA9C92900B3AE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S959SBGCQ;
+				INFOPLIST_FILE = CMLFlowerClassifier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caolongs.CMLFlowerClassifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0CF86441FA9C92900B3AE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S959SBGCQ;
+				INFOPLIST_FILE = CMLFlowerClassifier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caolongs.CMLFlowerClassifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0CF86461FA9C92900B3AE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CMLFlowerClassifierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caolongs.CMLFlowerClassifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CMLFlowerClassifier.app/CMLFlowerClassifier";
+			};
+			name = Debug;
+		};
+		B0CF86471FA9C92900B3AE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CMLFlowerClassifierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caolongs.CMLFlowerClassifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CMLFlowerClassifier.app/CMLFlowerClassifier";
+			};
+			name = Release;
+		};
+		B0CF86491FA9C92900B3AE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CMLFlowerClassifierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caolongs.CMLFlowerClassifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CMLFlowerClassifier;
+			};
+			name = Debug;
+		};
+		B0CF864A1FA9C92900B3AE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CMLFlowerClassifierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caolongs.CMLFlowerClassifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CMLFlowerClassifier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0CF86151FA9C92900B3AE73 /* Build configuration list for PBXProject "CMLFlowerClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CF86401FA9C92900B3AE73 /* Debug */,
+				B0CF86411FA9C92900B3AE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CF86421FA9C92900B3AE73 /* Build configuration list for PBXNativeTarget "CMLFlowerClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CF86431FA9C92900B3AE73 /* Debug */,
+				B0CF86441FA9C92900B3AE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CF86451FA9C92900B3AE73 /* Build configuration list for PBXNativeTarget "CMLFlowerClassifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CF86461FA9C92900B3AE73 /* Debug */,
+				B0CF86471FA9C92900B3AE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CF86481FA9C92900B3AE73 /* Build configuration list for PBXNativeTarget "CMLFlowerClassifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CF86491FA9C92900B3AE73 /* Debug */,
+				B0CF864A1FA9C92900B3AE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0CF86121FA9C92900B3AE73 /* Project object */;
+}
