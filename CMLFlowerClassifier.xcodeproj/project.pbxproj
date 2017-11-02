@@ -19,6 +19,7 @@
 		B0CF86571FAAE83500B3AE73 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CF86561FAAE83500B3AE73 /* UIImage+Extension.swift */; };
 		B0CF86591FAAF34400B3AE73 /* rose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0CF86581FAAF34400B3AE73 /* rose.jpg */; };
 		B0CF86631FAB08B500B3AE73 /* shan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0CF86621FAB08B400B3AE73 /* shan.jpg */; };
+		B0CF86651FAB0CBD00B3AE73 /* result.png in Resources */ = {isa = PBXBuildFile; fileRef = B0CF86641FAB0CBD00B3AE73 /* result.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		B0CF86561FAAE83500B3AE73 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		B0CF86581FAAF34400B3AE73 /* rose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rose.jpg; sourceTree = "<group>"; };
 		B0CF86621FAB08B400B3AE73 /* shan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shan.jpg; sourceTree = "<group>"; };
+		B0CF86641FAB0CBD00B3AE73 /* result.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = result.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		B0CF861C1FA9C92900B3AE73 /* CMLFlowerClassifier */ = {
 			isa = PBXGroup;
 			children = (
+				B0CF86641FAB0CBD00B3AE73 /* result.png */,
 				B0CF86621FAB08B400B3AE73 /* shan.jpg */,
 				B0CF86581FAAF34400B3AE73 /* rose.jpg */,
 				B0CF86501FA9DECD00B3AE73 /* MobileNet.mlmodel */,
@@ -249,6 +252,7 @@
 			files = (
 				B0CF86281FA9C92900B3AE73 /* LaunchScreen.storyboard in Resources */,
 				B0CF86631FAB08B500B3AE73 /* shan.jpg in Resources */,
+				B0CF86651FAB0CBD00B3AE73 /* result.png in Resources */,
 				B0CF86591FAAF34400B3AE73 /* rose.jpg in Resources */,
 				B0CF86251FA9C92900B3AE73 /* Assets.xcassets in Resources */,
 				B0CF86231FA9C92900B3AE73 /* Main.storyboard in Resources */,
